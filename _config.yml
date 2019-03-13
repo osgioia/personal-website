@@ -4,6 +4,7 @@ style: dark
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
+  - jemoji
 
 permalink: /:year/:month/:day/:title/
 
@@ -24,6 +25,7 @@ projects:
   exclude:
     forks: true
     projects:
+      - osgioia.github.io
     # - repo-name
 
 # social_media:
