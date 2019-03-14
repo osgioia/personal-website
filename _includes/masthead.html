@@ -28,16 +28,16 @@
         </a>
       </div>
     {% endif %}
+     {% if site.twitter %}
+      <div class="{{ metadata_styles }}">
+        <img src="{{ '/assets/Twitter_Logo_Blue.svg'|absolute_url }}" alt="Twitter icon" title="Twitter icon" class="mr-2 v-align-middle" height=20 width=20 />
+        <a href="{{ site.twitter }}" {% if site.style == 'dark' %}class="text-white"{% endif%}>Twitter</a>
+      </div>
+    {% endif %}
     {% if user.location %}
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
         {% octicon location height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
         {{ user.location }}
-      </div>
-    {% endif %}
-    {% if site.twitter %}
-      <div class="{{ metadata_styles }}">
-        <img src="{{ '/assets/Twitter_Logo_Blue.svg'|absolute_url }}" alt="Twitter icon" title="Twitter icon" class="mr-3" height=20 width=20 />
-        <a href="{{ site.twitter }}" {% if site.style == 'dark' %}class="text-white"{% endif%}>Twitter</a>
       </div>
     {% endif %}
     {% if user.hireable %}
