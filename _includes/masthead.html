@@ -34,6 +34,12 @@
         {{ user.location }}
       </div>
     {% endif %}
+    {% if site.twitter %}
+      <div class="{{ metadata_styles }}">
+        <img src="{{ '/assets/images/Twitter_Logo_Blue.svg'|absolute_url }}" alt="Twitter icon" title="Twitter icon" class="mr-3" height=20 width=20 />
+        <a href="{{ site.twitter }}" {% if site.style == 'dark' %}class="text-white"{% endif%}>Twitter</a>
+      </div>
+    {% endif %}
     {% if user.hireable %}
       <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
     {% endif %}
