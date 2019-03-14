@@ -22,7 +22,7 @@ repositories:
   - chat-react
   - reactjs_App
   
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
@@ -30,7 +30,7 @@ repositories:
   # medium: @your_username
   # stackoverflow: your_user_id
   # telegram: your_username
-  # twitter: your_username
+  twitter: aioigzo
   # youtube: your_username
   # vk: your_username
 
