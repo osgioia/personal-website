@@ -16,18 +16,12 @@ defaults:
     values:
       layout: "post"
 
-projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
-  exclude:
-    forks: false
-    projects:
-      - "osgioia.github.io"
-    # - repo-name
-
+repositories: 
+  - Kodi-plugin.video.playlistLoader
+  - qr_scanner
+  - chat-react
+  - reactjs_App
+  
 # social_media:
   # behance: your_username
   # dribbble: your_username
