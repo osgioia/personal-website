@@ -23,9 +23,9 @@ projects:
   #   - stars
   limit: 9
   exclude:
-    forks: true
+    forks: false
     projects:
-      - osgioia.github.io
+      - "osgioia.github.io"
     # - repo-name
 
 # social_media:
